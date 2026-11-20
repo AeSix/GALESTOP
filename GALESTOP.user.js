@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          GALESTOP
 // @namespace     https://greasyfork.org
-// @version       1.2
+// @version       1.2.1
 // @description   Google AI Live Entry Suggestive Text Omitter & Preventer - Hides the inline ghost text in Google AI and Gemini prompt boxes while signed in.
 // @author        AeSix (curator)
 // @contributor   AI Attribution (see https://github.com/AeSix/GALESTOP/blob/main/AI-Attribution.md)

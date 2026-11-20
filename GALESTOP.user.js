@@ -1,19 +1,18 @@
 // ==UserScript==
 // @name          GALESTOP
 // @namespace     https://greasyfork.org
-// @version       1.2.1
+// @version       1.1
 // @description   Google AI Live Entry Suggestive Text Omitter & Preventer - Hides the inline ghost text in Google AI and Gemini prompt boxes while signed in.
 // @author        AeSix (curator)
 // @contributor   AI Attribution (see https://github.com/AeSix/GALESTOP/blob/main/AI-Attribution.md)
 // @homepageURL   https://github.com/AeSix/GALESTOP
 // @supportURL    https://github.com/AeSix/GALESTOP
-// @downloadURL   https://raw.githubusercontent.com/AeSix/GALESTOP/refs/heads/main/GALESTOP.user.js
-// @updateURL     https://raw.githubusercontent.com/AeSix/GALESTOP/refs/heads/main/GALESTOP.user.js
-// @icon          data:image/svg+xml;utf8,<svg xmlns="http://w3.org" viewBox="0 0 64 64"><polygon points="20,4 44,4 60,20 60,44 44,60 20,60 4,44 4,20" fill="%23d93025" stroke="%23ffffff" stroke-width="3"/><path d="M16 26h24a4 4 0 1 0-4-4M14 34h30a4 4 0 1 1-4 4M20 42h16" fill="none" stroke="%23ffffff" stroke-width="4" stroke-linecap="round"/></svg>
+// @downloadURL   https://github.com/AeSix/GALESTOP/blob/main/GALESTOP.user.js
+// @updateURL     https://raw.githubusercontent.com/AeSix/GALESTOP/main/GALESTOP.user.js
+// @icon          data:image/svg+xml;utf8,<svg xmlns="http://w3.org/2000/svg" viewBox="0 0 64 64"><polygon points="20,4 44,4 60,20 60,44 44,60 20,60 4,44 4,20" fill="%23d93025" stroke="%23ffffff" stroke-width="3"/><path d="M16 26h24a4 4 0 1 0-4-4M14 34h30a4 4 0 1 1-4 4M20 42h16" fill="none" stroke="%23ffffff" stroke-width="4" stroke-linecap="round"/></svg>
 // @license       BSD-3-Clause
-// @match         https://google.com*
-// @match         https://google.com*
-// @exclude-match https://google.commaps/*
+// @match         https://www.google.com/*
+// @match         https://gemini.google.com/*
 // @run-at        document-start
 // @noframes
 // @grant         none
